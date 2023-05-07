@@ -1,0 +1,57 @@
+.home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+.homeFlex{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.homeImg{
+  width: 30%;
+  animation: float  3s ease-in-out infinite ;
+  transform: translateY(0);
+}
+.homeNav{
+  display: flex;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+.homeNav a{
+  padding: 0.4rem 1rem;
+}
+.homeNav :first-child{
+  border: 2px solid var(--purple);
+  border-radius: 10px;
+}
+.homeNav :last-child{
+  border: 2px solid var(--grennLigth);
+  border-radius: 10px;
+}
+.homeNav a:hover{
+  transform: scale(1.1);
+  transition: all .1s ease-in-out 200ms;
+  opacity: 0.8;
+}
+@media (max-width:800px) {
+  .homeImg{
+    width: 25%;
+  }
+  .homeNav{
+    gap: 0.8rem;
+  }
+  .homeNav a{
+    padding: 0.4rem 0.5rem;
+  }
+}
+@media (max-width:700px) {
+  .homeFlex{
+    flex-direction: column-reverse;
+  }
+  .homeImg{
+    margin-bottom: 2rem;
+    animation: none;
+  }
+}

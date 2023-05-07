@@ -1,0 +1,10 @@
+/* Ultilitarios */
+@import "css/ultilitarios/ultilitarios.css";
+@import "css/ultilitarios/fonts.css";
+@import "css/ultilitarios/global.css";
+@import "css/ultilitarios/animação.css";
+/* Header */
+@import "css/header/header.css";
+/* Main */
+@import "css/main/home.css";
+@import "css/main/sobreMim.css";

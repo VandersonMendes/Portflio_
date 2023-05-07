@@ -1,0 +1,104 @@
+@font-face {
+  font-family: "Oswald";
+  src: url("../../font/Oswald-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../../font/Montserrat-VariableFont_wght.ttf");
+}
+.weightP{
+  font-weight: 600;
+}
+.weightPM{
+  font-weight: 700;
+}
+.weightM{
+  font-weight: 800;
+}
+.weightG{
+  font-weight: 900;
+}
+.montserrat{
+  font-family: "Montserrat";
+}
+.oswald{
+  font-family: "Oswald";
+}
+.G{
+  font-size: 56pt;
+}
+.M{
+  font-size: 40pt;
+}
+.PM{
+  font-size: 24pt;
+}
+.P{
+  font-size: 20pt;
+}
+.PP{
+  font-size: 18pt;
+}
+.PPP{
+  font-size: 14pt;
+}
+@media (max-width:1200px) {
+  .G{
+    font-size: 56pt;
+  }
+  .M{
+    font-size: 36pt;
+  }
+  .PM{
+    font-size: 24pt;
+  }
+  .P{
+    font-size: 20pt;
+  }
+  .PP{
+    font-size: 16pt;
+  }
+  .PPP{
+    font-size: 12pt;
+  }
+}
+@media (max-width:900px) {
+  .G{
+    font-size: 52pt;
+  }
+  .M{
+    font-size: 32pt;
+  }
+  .PM{
+    font-size: 22pt;
+  }
+  .P{
+    font-size: 18pt;
+  }
+  .PP{
+    font-size: 14pt;
+  }
+  .PPP{
+    font-size: 10pt;
+  }
+}
+@media (max-width:600px) {
+  .G{
+    font-size: 50pt;
+  }
+  .M{
+    font-size: 26pt;
+  }
+  .PM{
+    font-size: 20pt;
+  }
+  .P{
+    font-size: 14pt;
+  }
+  .PP{
+    font-size: 12pt;
+  }
+  .PPP{
+    font-size: 10pt;
+  }
+}

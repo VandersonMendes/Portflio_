@@ -1,0 +1,24 @@
+:root{
+  --blueExt:#0A192F;
+  --grenn:#64FFDA;
+  --grennLigth:#70e4c88f;
+  --roxoLigth:#8892B0;
+  --white:#ffff;
+  --blueLight: rgb(89, 148, 236);
+  --purple:#603EA9;
+  --red:rgba(255, 4, 4, 0.397);
+  --blueExtLigth :#0a192fed:
+}
+.white1{
+  color: var(--white);
+}
+.grenn{
+  color: var(--grenn) !important;
+}
+.purple{
+  color: var(--purple);
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}

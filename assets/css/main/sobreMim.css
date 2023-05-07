@@ -1,0 +1,49 @@
+
+.sobreMim{
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sobreMimFlex{
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+.sobreImg{
+  width: 90%;
+  border-left: 0.7rem solid var(--purple);
+  cursor: pointer;
+  filter: saturate(50%);
+}
+.sobreImg:hover{
+  border-left: 0.7rem solid var(--grenn);
+  transition: ease 50ms ease-in-out 800ms;
+  filter: saturate(100%);
+}
+.sobreText{
+  max-width: 90%;
+}
+.sobreText h3{
+  margin:2rem 0 ;
+}
+@media (max-width:800px) {
+  .sobreMimFlex{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .sobreImg{
+    width: 40%;
+    border: none;
+  }
+  .sobreImg:hover{
+    width: 40%;
+    border: none;
+  }
+  .sobreText h3{
+    margin:1.2rem 0 ;
+  }
+  .sobreText{
+    max-width: 80%;
+  }
+}
