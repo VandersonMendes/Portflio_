@@ -45,7 +45,7 @@
     justify-content: center;
   }
   .sobreMim{
-    min-height: 60vh;
+    margin-bottom: 5rem;
   }
   .sobreImg{
     display: none;
