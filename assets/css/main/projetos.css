@@ -1,0 +1,45 @@
+.projetos{
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.projetosFlex{
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.projetosText h2{
+  margin: 1.3rem 0;
+}
+.projetosText a{
+  background-color: var(--purple);
+  padding:0.5rem 2rem ;
+  border-radius: 5px;
+  margin-top: 2rem;
+}
+.projetosText a:hover{
+  background-color: var(--grenn);
+  color: var(--blueExt);
+}
+.projetosText a span{
+  margin-right: 10px;
+}
+.projetosText p{
+  margin-bottom: 2rem;
+}
+
+
+
+@media (max-width:1200px) {
+  .projetos{
+    margin: 0 1rem;
+  }
+}
+@media (max-width:800px) {
+  .projetos{
+    min-height: 60vh;
+  }
+}

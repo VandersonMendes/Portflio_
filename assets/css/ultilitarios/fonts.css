@@ -9,6 +9,9 @@
 .weightP{
   font-weight: 600;
 }
+.lineG{
+  line-height: 1.7;
+}
 .weightPM{
   font-weight: 700;
 }
@@ -84,7 +87,7 @@
 }
 @media (max-width:600px) {
   .G{
-    font-size: 50pt;
+    font-size: 48pt;
   }
   .M{
     font-size: 26pt;

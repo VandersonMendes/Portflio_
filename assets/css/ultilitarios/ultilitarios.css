@@ -8,6 +8,7 @@
   --purple:#603EA9;
   --red:rgba(255, 4, 4, 0.397);
   --blueExtLigth :#0a192fed:
+  --grayLigth:#67676726;
 }
 .white1{
   color: var(--white);
@@ -18,6 +19,10 @@
 .purple{
   color: var(--purple);
 }
+.blueExt{
+  color: var(--blueExt);
+}
+
 .container{
   max-width: 1200px;
   margin: 0 auto;

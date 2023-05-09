@@ -1,6 +1,6 @@
 
 .sobreMim{
-  min-height: 40vh;
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -27,18 +27,28 @@
 .sobreText h3{
   margin:2rem 0 ;
 }
+.sobreParagrafos{
+ background-color: #6c6b6b0d ;
+ padding:0.7rem 1rem;
+ border-radius: 10px;
+ box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
 @media (max-width:800px) {
+  .sobreText{
+    max-width: 100%;
+  }
+  .sobreText h2{
+    font-size: 2rem !important;
+  }
   .sobreMimFlex{
     flex-direction: column;
     justify-content: center;
   }
-  .sobreImg{
-    width: 40%;
-    border: none;
+  .sobreMim{
+    min-height: 60vh;
   }
-  .sobreImg:hover{
-    width: 40%;
-    border: none;
+  .sobreImg{
+    display: none;
   }
   .sobreText h3{
     margin:1.2rem 0 ;
