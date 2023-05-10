@@ -2,6 +2,7 @@
 .navMenu{
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-top: 1rem;
 }
 .navMenu h2{
@@ -14,11 +15,11 @@
 }
 .listMenu li{
   margin: 1rem 1.4rem;
+  transform: scale(0.9);
 }
 .listMenu li:hover{
   opacity: 0.8;
-  text-decoration: solid;
-  transform: scale(1.2);
+  transform: scale(1);
   transition: all .2s ease-in-out 200ms;
 }
 .tituloNavMenu .right{
@@ -41,6 +42,10 @@
   .navMenu h2{
     margin-left: 1rem;
   }
+  .navMenu{
+    display: flex;
+    align-items: start;
+  }
   .menuMobile{
     display: block;
     margin-right: 1rem;
@@ -51,11 +56,13 @@
     display: none;
     transition: 1s all;
     flex-direction: row;
-    margin-left: 1rem;
   }
   .listMenu.active{
     display: flex;
   }
+  .listMenu li {
+    margin: 1rem 0.8em;
+}
   .tituloNavMenu.remove{
     display: none;
   }

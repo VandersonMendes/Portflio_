@@ -1,0 +1,12 @@
+.footer{
+  text-align: center;
+  padding: 1rem 0;
+}
+.footer a{
+  color: var(--purple);
+  transition: 1s all;
+}
+.footer a:hover{
+  color: green;
+  transition: 1s all;
+}

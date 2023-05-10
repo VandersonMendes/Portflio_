@@ -1,10 +1,11 @@
-@font-face {
-  font-family: "Oswald";
-  src: url("../../font/Oswald-VariableFont_wght.ttf");
-}
+
 @font-face {
   font-family: "Montserrat";
   src: url("../../font/Montserrat-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: 'Undbounded';
+  src: url("../../font/Unbounded-VariableFont_wght.ttf");
 }
 .weightP{
   font-weight: 600;
@@ -24,8 +25,8 @@
 .montserrat{
   font-family: "Montserrat";
 }
-.oswald{
-  font-family: "Oswald";
+.Undbounded{
+  font-family: "Undbounded";
 }
 .G{
   font-size: 56pt;
@@ -47,7 +48,7 @@
 }
 @media (max-width:1200px) {
   .G{
-    font-size: 56pt;
+    font-size: 52pt;
   }
   .M{
     font-size: 36pt;
@@ -67,7 +68,7 @@
 }
 @media (max-width:900px) {
   .G{
-    font-size: 52pt;
+    font-size: 45pt;
   }
   .M{
     font-size: 32pt;
@@ -87,13 +88,33 @@
 }
 @media (max-width:600px) {
   .G{
-    font-size: 48pt;
+    font-size: 36pt;
   }
   .M{
     font-size: 26pt;
   }
   .PM{
     font-size: 20pt;
+  }
+  .P{
+    font-size: 14pt;
+  }
+  .PP{
+    font-size: 12pt;
+  }
+  .PPP{
+    font-size: 10pt;
+  }
+}
+@media (max-width:600px) {
+  .G{
+    font-size: 30pt;
+  }
+  .M{
+    font-size: 22pt;
+  }
+  .PM{
+    font-size: 16pt;
   }
   .P{
     font-size: 14pt;

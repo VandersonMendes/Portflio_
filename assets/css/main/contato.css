@@ -1,0 +1,107 @@
+.contato{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10rem;
+}
+.containerContato h1{
+  text-align: center;
+}
+.containerContato h1::before{
+  content: "";
+  display: inline-block;
+  background-color: var(--grenn);
+  height: 10px;
+  width: 3rem;
+  position: relative;
+  top: -1rem;
+  left: -20px;
+}
+.containerContato h1::after{
+  content: "";
+  display: inline-block;
+  background-color: var(--grenn);
+  height: 10px;
+  width: 3rem;
+  position: relative;
+  top: -1rem;
+  right: -20px;
+}
+.contatoFlex{
+  display: flex;
+  padding: 2rem 7rem;
+  margin-top: 3rem;
+  border: 2px solid var(--purple);
+  border-radius: 10px;
+  margin: 3rem 1rem;
+}
+.contatoTermo{
+  display: flex;
+  align-items: center;
+}
+.contatoFlex img{
+  width: 7%;
+  margin-right: 10px;
+}
+.contatoFlex dt{
+  margin-bottom: 0.4rem;
+}
+.contatoFlex dt::before{
+  content: "";
+  display: inline-block;
+  background-color: var(--purple);
+  height: 6px;
+  width: 1.4rem;
+  position: relative;
+  top: -0.4rem;
+  left: -5px;
+}
+.contatoTermo{
+  margin-bottom: 2rem;
+}
+.contatoTermo span:hover{
+  color: var(--grenn);
+  cursor: pointer;
+}
+.contatoTermo a:hover{
+  color: var(--grenn);
+  cursor: pointer;
+}
+.contatoRedeSociais img{
+  width: 10%;
+  transition: 1s ease-in-out;
+}
+.contatoRedeSociais img:hover{
+  transform: rotate(50deg);
+  transition: 1s ease-in-out;
+}
+@media (max-width:800px) {
+  .contato{
+    min-height: 0;
+    margin-bottom: 5rem;
+  }
+  .contatoFlex{
+    justify-content: center;
+  }
+  .containerContato h1::before{
+    height: 7px;
+    width: 1.5rem;
+    top: -1rem;
+    left: -15px;
+  }
+  .containerContato h1::after{
+    height: 7px;
+    width: 1.5rem;
+    top: -1rem;
+    right: -15px;
+  }
+}
+@media (max-width:800px) {
+  .containerContato h1::before{
+    top: -0.5rem;
+    left: -10px;
+  }
+  .containerContato h1::after{
+    top: -0.5rem;
+    left: 10px;
+  }
+}

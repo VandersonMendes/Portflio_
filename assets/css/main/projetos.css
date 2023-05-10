@@ -19,10 +19,12 @@
   padding:0.5rem 2rem ;
   border-radius: 5px;
   margin-top: 2rem;
+  transition: 1s ease-in-out;
 }
 .projetosText a:hover{
   background-color: var(--grenn);
   color: var(--blueExt);
+  letter-spacing: 1px;
 }
 .projetosText a span{
   margin-right: 10px;
@@ -42,5 +44,19 @@
   .projetos{
     min-height: 0;
     margin-bottom: 5rem;
+  }
+}
+@media (max-width:600px) {
+  .projetosFlex{
+    display: block;
+  }
+  .projetosFlex div{
+    margin-top: 3rem;
+  }
+  .projetosText p{
+    margin-bottom: 1rem;
+  }
+  .projetosText h2{
+    margin: 0.7rem 0;
   }
 }
