@@ -36,6 +36,9 @@
   opacity: 0.8;
 }
 @media (max-width:800px) {
+  .home{
+    min-height: 0vh;
+  }
   .homeImg{
     width: 25%;
   }
