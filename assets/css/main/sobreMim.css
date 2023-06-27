@@ -1,25 +1,24 @@
 
 .sobreMim{
-  min-height: 90vh;
+  min-height:100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: 3rem 0;
 }
 .sobreMimFlex{
   display: flex;
   align-items: center;
   gap: 4rem;
 }
-.sobreImg{
-  width: 90%;
+.sobreImg img{
+  width: 80%;
+  border-radius: 100px;
   border-left: 0.7rem solid var(--purple);
   cursor: pointer;
+  padding: 1rem 0.5rem;
+  margin-left: 2rem;
   filter: saturate(50%);
-}
-.sobreImg:hover{
-  border-left: 0.7rem solid var(--grenn);
-  transition: ease 50ms ease-in-out 800ms;
-  filter: saturate(100%);
 }
 .sobreText{
   max-width: 90%;
@@ -33,22 +32,18 @@
  border-radius: 10px;
  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
-@media (max-width:800px) {
+@media (max-width:1200px) {
+  .sobreMimFlex{
+    gap: 2rem;
+  }
   .sobreText{
     max-width: 100%;
   }
+  .sobreParagrafos{
+    margin-right: 2rem;
+   }
   .sobreText h2{
     font-size: 2rem !important;
-  }
-  .sobreMimFlex{
-    flex-direction: column;
-    justify-content: center;
-  }
-  .sobreMim{
-    margin-bottom: 5rem;
-  }
-  .sobreImg{
-    display: none;
   }
   .sobreText h3{
     margin:1.2rem 0 ;
@@ -56,4 +51,22 @@
   .sobreText{
     max-width: 80%;
   }
+  .sobreImg img{
+    margin-left: 1rem;
+  }
+}
+
+
+@media (max-width:800px) {
+  .sobreMimFlex{
+    gap: 1rem;
+  }
+ .sobreMimFlex{
+  flex-direction: column;
+ }
+ .sobreImg img{
+  width: 35%;
+  display: block;
+  margin: 0 auto;
+ }
 }

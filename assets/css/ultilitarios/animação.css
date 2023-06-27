@@ -9,3 +9,35 @@
       transform: translateY(0px);
     }
 }
+.animeTop{
+  opacity: 0;
+  transform: translateY(-50px);
+  animation: animationTop 1s forwards;
+}
+@keyframes animationTop {
+    to{
+      opacity: 1;
+      transform: initial;
+    }
+}
+
+.animeBottom{
+  opacity: 0;
+  transform: translateY(50px);
+  animation: animationTop 1.4s forwards;
+}
+@keyframes animationTop {
+    to{
+      opacity: 1;
+      transform: initial;
+    }
+}
+
+.js [data-scroll="scroll"]{
+  opacity: 0;
+  transform: translate3d(40px, 0 ,0);
+  transition: 1s ease-in-out;
+}
+.js [data-scroll="scroll"].ativo{
+  opacity: 1;
+}

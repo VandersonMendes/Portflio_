@@ -31,13 +31,14 @@
   border-radius: 10px;
 }
 .homeNav a:hover{
-  transform: scale(1.1);
+  transform:scale(1.1);
   transition: all .1s ease-in-out 200ms;
   opacity: 0.8;
 }
 @media (max-width:800px) {
   .home{
-    min-height: 0vh;
+    min-height: 0;
+    margin-top: 6rem;
   }
   .homeImg{
     width: 25%;

@@ -5,7 +5,6 @@ export default function initMaquinaEscrever(){
       const textArray = elem.innerHTML.split('');
       elem.innerHTML=" ";
       textArray.forEach((letra, i) => {
-        console.log(i)
         setTimeout(() =>{
           elem.innerHTML += letra
         }, 130 * i)

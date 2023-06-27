@@ -1,9 +1,9 @@
 
 .navMenu{
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 1rem;
+  justify-content:space-around;
+  margin-top: 1.5rem;
+
 }
 .navMenu h2{
   margin-left: 2rem;
@@ -14,6 +14,7 @@
   align-items: end;
 }
 .listMenu li{
+  float: right;
   margin: 1rem 1.4rem;
   transform: scale(0.9);
 }
@@ -28,7 +29,7 @@
 .tituloNavMenu .left{
   margin-left: 0.4rem;
 }
-.menuMobile{
+.js .menuMobile{
   cursor: pointer;
   display: none;
 }
@@ -44,9 +45,9 @@
   }
   .navMenu{
     display: flex;
-    align-items: start;
+    align-items: baseline;
   }
-  .menuMobile{
+  .js .menuMobile{
     display: block;
     margin-right: 1rem;
     margin-top: 0.3rem;
@@ -57,7 +58,7 @@
     transition: 1s all;
     flex-direction: row;
   }
-  .listMenu.active{
+  .js .listMenu.active{
     display: flex;
   }
   .listMenu li {

@@ -5,6 +5,7 @@
 @import "css/ultilitarios/animação.css";
 /* Header */
 @import "css/header/header.css";
+@import "css/header/menuFixed.css";
 /* Main */
 @import "css/main/home.css";
 @import "css/main/sobreMim.css";

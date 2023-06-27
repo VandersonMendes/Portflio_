@@ -1,0 +1,38 @@
+.menuFixed{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 2px;
+    max-height: 100px;
+    height: 90px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.js .menuFixed.active{
+    display: flex;
+}
+.listMenuIcone li img{
+    max-width: 100px;
+    width: 20px;
+    cursor: pointer;
+    border: 2px solid gray;
+    padding: 0.3rem;
+    border-radius: 100px;
+}
+.listMenuIcone li{
+    transition: 200ms ease-in
+}
+.listMenuIcone li:hover{
+    transition: 200ms ease-in;
+    transform: scale(1.1);
+}
+
+.listMenuIcone{
+    display: flex;
+    gap: 30px;
+    background-color:rgba(190, 190, 190, 0.096);
+    padding: 0.2rem 2rem;
+    border-radius: 15px;
+}
+
