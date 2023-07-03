@@ -4,6 +4,7 @@
 }
 body{
   background-color: var(--blueExt);
+  overflow-x: hidden;
 }
 a,li{
   text-decoration: none;

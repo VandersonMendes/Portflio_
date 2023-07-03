@@ -29,24 +29,17 @@
   color: var(--blueExt);
   letter-spacing: 1px;
 }
-.projetosText a span{
+.projetosText .flexLink a  span{
   margin-right: 10px;
 }
-.projetosText p{
-  margin-bottom: 2rem;
-}
-
-
-
-@media (max-width:1200px) {
-  .projetos{
-    margin: 0 2rem 0 2rem;
-  }
+.projetosText .flexLink{
+  display: flex;
+  gap: 2rem;
 }
 @media (max-width:800px) {
   .projetos{
     min-height: 0;
-    margin-bottom: 5rem;
+    margin-top: 5rem;
   }
   .projetosGrid{
     gap: 2rem;
@@ -55,5 +48,11 @@
 @media (max-width:600px) {
   .projetosGrid{
     grid-template-columns: 1fr;
+    margin: 2rem 1rem;
+  }
+}
+@media (max-width:400px) {
+  .projetosText a{
+    padding:0.5rem 0.2rem ;
   }
 }

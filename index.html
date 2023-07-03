@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,10 +9,12 @@
   <title>Portifólio</title>
 </head>
 <script>document.documentElement.className += 'js';</script>
-<body>
+
+<body class="container">
   <header class="menuHeader container ">
     <nav class="navMenu">
-      <h1 class="PM montserrat tituloNavMenu grenn weightP"><a href="#" clas="montserrat"><span class="right">&#60;</span>Portifólio<span class="left">/&#62;</span></a></h1>
+      <h1 class="PM montserrat tituloNavMenu grenn weightP"><a href="#" clas="montserrat"><span
+            class="right">&#60;</span>Portifólio<span class="left">/&#62;</span></a></h1>
       <ul class="listMenu montserrat PPP animeTop">
         <li><a href="#home">Home</a></li>
         <li><a href="#sobreMim">Sobre Mim</a></li>
@@ -35,7 +38,7 @@
           <p class="white1 montserrat P grenn weightP">Desenvolvedor Front-End</p>
           <nav class="montserrat PPP homeNav weightP">
             <a href="https://github.com/VandersonMendes" target="_blank">GitHub</a>
-            <a href="" target="_blank">Linkedin</a>
+            <a href="https://www.linkedin.com/in/vanderson-dias-mendes-670266282/" target="_blank">Linkedin</a>
           </nav>
         </div>
         <div class="homeImg">
@@ -43,8 +46,9 @@
         </div>
       </div>
     </section>
+
     <!-- Sobre mim -->
-    <section class="sobreMim container" id="sobreMim" data-scroll="scroll">
+    <section class="sobreMim " id="sobreMim" data-scroll="scroll">
       <div class="sobreMimFlex ">
         <div class="sobreImg">
           <img src="assets/img/minhaFoto.jpeg" alt="">
@@ -53,12 +57,58 @@
           <h2 class="grenn weightPM">Sobre mim</h2>
           <h3 class=" PPP weightPM montserrat">Itaperuna, Rio de Janeiro</h3>
           <div class="sobreParagrafos">
-            <p class="PPP lineG">Me chamo Vanderson Dias Mendes, sou um apaixonado por tecnologia, e me interessei pela aréa web, estou especializando em Front-End, para projetar sites com experiências digitais incriveis.</p>
-            <p class="PPP lineG">Atualmente estou focado em aprender cada vez mais sobre o desenvolvimento web, e ganhar novas experiências fazendo novos projetos.</p>
+            <p class="PPP lineG">Me chamo Vanderson Dias Mendes, sou um apaixonado por tecnologia, e me interessei pela
+              aréa web, estou especializando em Front-End, para projetar sites com experiências digitais incriveis.</p>
+            <p class="PPP lineG">Atualmente estou focado em aprender cada vez mais sobre o desenvolvimento web, e ganhar
+              novas experiências fazendo novos projetos.</p>
+          </div>
+          <div class="redeContato">
+            <ul class="redeContatoList">
+              <li><a href="https://github.com/VandersonMendes" target="_blank"><img
+                    src="assets/img/icons8-github (2).svg" alt=""></a></li>
+              <li><a href="https://www.linkedin.com/in/vanderson-dias-mendes-670266282/" target="_blank"><img
+                    src="assets/img/icons8-linkedin (2).svg" alt=""></a></li>
+              <li><a href="" target="_blank"><img src="assets/img/icons8-instagram (2).svg" alt=""></a></li>
+            </ul>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- Tecnologias -->
+    <section class=" tecnologias" data-scroll="scroll" id="tecnologias">
+      <h1 class="grenn montserrat G">Tecnologias</h1>
+        <ul class="listTecnologias" data-tab="link">
+          <li><img src="/assets/img/HTML5_Badge.svg" alt="HTML"></li>
+          <li><img src="/assets/img/CSS3_logo.svg" alt="CSS"></li>
+          <li><img src="/assets/img/Unofficial_JavaScript_logo_2.svg" alt="JavaScript"></li>
+          <li><img src="assets/img/React-icon.svg" alt="React"></li>
+        </ul>
+        <div class="descricao" data-tab="content">
+          <div class="ativo show-right">
+            <h2 class="M montserrat white1">HTML 5</h2>
+            <p class="PP white1 montserrat">HTML é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores. A tecnologia é fruto da junção entre os padrões HyTime e SGML. HyTime é um padrão para a representação estruturada de hipermídia e conteúdo baseado em tempo.</p>
+          </div>
+
+          <div class=" show-right">
+            <h2 class="M montserrat white1">CSS 3</h2>
+            <p class="PPP white1 montserrat">Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web, aplicado diretamente nas tags HTML ou ficar contido dentro das tags style Também é possível, adicionar estilos adicionando um link para um arquivo CSS que contém os estilos.</p>
+          </div>
+
+          <div class=" show-right">
+            <h2 class="M montserrat white1">JavaScript</h2>
+            <p class="PPP white1 montserrat">JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web</p>
+          </div>
+
+          <div class=" show-right">
+            <h2 class="M montserrat white1">React</h2>
+            <p class="PPP white1 montserrat">O React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web</p>
+          </div>
+
+          
+        </div>
+    </section>
+
 
     <!-- Projetos -->
     <section class="projetos container" id="projetos" data-scroll="scroll">
@@ -68,65 +118,49 @@
           <img src="assets/img/projeto1.png" alt="projeto1">
           <div class="projetosText">
             <h2 class="P white1 montserrat">Animais Fantásticos</h2>
-            <p class="PPP  white1 montserrat">Projeto desenvolvido durante o Curso de JavaScript ES6+ na Origamid, <span class="blueLight">usando as tecnologia JavaScript HTML CSS</span></p>
-            <a href="https://vandersonmendes.github.io/animais-fantasticos/" target="_blank" class="montserrat weightPM"><span class="link">🔗</span>Visitar o site</a>
+            <p class="PPP  white1 montserrat">Projeto desenvolvido durante o Curso de JavaScript ES6+ na Origamid, <span
+                class="blueLight">usando as tecnologia JavaScript HTML CSS</span></p>
+            <div class="flexLink PPP">
+              <a href="https://vandersonmendes.github.io/animais-fantasticos/" target="_blank"
+                class="montserrat weightPM"><span class="link">🔗</span>Visitar o site</a>
+              <a href="https://github.com/VandersonMendes/animais-fantasticos" class="weightPM montserrat"
+                target="_blank"><span>Ver respositorio</span></a>
+            </div>
           </div>
         </div>
         <div>
           <img src="assets/img/projeto2.png" alt="projeto2">
           <div class="projetosText">
             <h2 class="P white1 montserrat">API de buscar CEP</h2>
-            <p class="PPP  white1 montserrat">Projeto desenvolvido para colocar em prática conhecimento sobre API, <span class="blueLight"> usando as tecnologia JavaScript HTML CSS</span></p>
-            <a href="https://vandersonmendes.github.io/buscarCep/" target="_blank" class="montserrat weightPM"><span class="link">🔗</span>Visitar o site</a>
+            <p class="PPP  white1 montserrat">Projeto desenvolvido para colocar em prática conhecimento sobre API, <span
+                class="blueLight"> usando as tecnologia JavaScript HTML CSS</span></p>
+            <div class="flexLink montserrat weightPM PPP">
+              <a href="https://vandersonmendes.github.io/buscarCep/" target="_blank"><span
+                  class="link">🔗</span>Visitar o site</a>
+              <a href="https://github.com/VandersonMendes/buscarCep">Ver respositorio</a>
+            </div>
           </div>
         </div>
         <div>
           <img src="assets/img/Projeto Pokedex.png" alt="projeto3">
           <div class="projetosText">
             <h2 class="P white1 montserrat">Pokedex</h2>
-            <p class="PPP  white1 montserrat">Projeto está consumindo Api Pokedex, esse foi meu primeiro projeto que eu fiz, colocando em praticas meus conhecimentos sobre a biblioteca React<span class="blueLight"> tambem usando as tecnologia HTML CSS</span></p>
-            <a href="https://vandersonmendes.github.io/buscarCep/" target="_blank" class="montserrat weightPM"><span class="link">🔗</span>Visitar o site</a>
+            <p class="PPP  white1 montserrat">Projeto está consumindo Api Pokedex, esse foi meu primeiro projeto que eu
+              fiz, colocando em praticas meus conhecimentos sobre a biblioteca React<span class="blueLight"> tambem
+                usando as tecnologia HTML CSS</span></p>
+            <div class="montserrat weightPM flexLink PPP" >
+              <a href="https://pokedex-blond-psi.vercel.app/" target="_blank"><span
+                class="link">🔗</span>Visitar o site</a>
+            <a href="https://github.com/VandersonMendes/Pokedex" target="_blank">Ver respositorio</a>
+            </div>
           </div>
         </div>
       </div>
     </section>
-
-    <!-- Contato -->
-    <section class="contato container" id="contato" data-scroll="scroll">
-      <div class="containerContato">
-        <h1 class="G montserrat grenn">Entre em contato</h1>
-        <div class="contatoFlex">
-          <dl>
-            <dt class="white1 PM montserrat">Email</dt>
-            <dd class="white1 PPP montserrat contatoTermo"> 
-              <img src="assets/img/icons8-nova-mensagem-24.png" alt=""> 
-              <span>vandersondiasmendes2@gmail.com</span>
-            </dd>
-
-            <dt class="white1 PM montserrat">GitHub</dt>
-            <dd class="white1 PPP montserrat contatoTermo"> 
-              <img src="assets/img/icons8-github-24 (1).png" alt=""> 
-              <span><a href="https://github.com/VandersonMendes">VandersonMendes</a></span>
-            </dd>
-            <dt class="white1 PM montserrat">Rede sociais</dt>
-            <dd class="white1 PPP montserrat contatoRedeSociais"> 
-              <a href="https://www.instagram.com/vanderson.mends/" target="_blank"><img src="assets/img/icons8-instagram (2).svg" alt=""> </a>
-              <a href="https://www.linkedin.com/in/vanderson-dias-mendes-184003238/" target="_blank"><img src="assets/img/icons8-linkedin (2).svg" alt=""> </a>
-            </dd>
-          </dl>
-        </div>
-      </div>
-    </section>
-    <!-- Menu fixo (Quando o cabeçãlho sai da tela fica não visivel , esse menu é ativado) -->
-    <section class="menuFixed animeBottom">
-      <ul class="listMenuIcone">
-        <li ><a href="#home"><img src="assets/img/iconsHome.svg" alt="iconeHome"></a></li>
-        <li><a href="#sobreMim"><img src="assets/img/icons8-usuário-100.png" alt="iconeUsuario"></a></li>
-        <li><a href="#contato"><img src="assets/img/iconsTelefone.svg" alt="Contato"></a></li>
-      </ul>
-    </section>
   </main>
-  <footer class="footer white1 montserrat PPP">Desenvolvido por <a href="https://github.com/VandersonMendes" target="_blank">Vanderson Dias Mendes.</a></footer>
+  <footer class="footer white1 montserrat PPP weightP">Desenvolvido por <a href="https://github.com/VandersonMendes"
+      target="_blank">Vanderson Dias Mendes.</a></footer>
   <script src="js/modules/script.js" type="module"></script>
 </body>
+
 </html>

@@ -1,6 +1,7 @@
 .footer{
   text-align: center;
   padding: 1rem 0;
+  margin: 4rem 0;
 }
 .footer a{
   color: var(--purple);
@@ -9,4 +10,9 @@
 .footer a:hover{
   color: green;
   transition: 1s all;
+}
+@media (max-width:600px) {
+  .footer{
+    margin: 0rem 0;
+  }
 }

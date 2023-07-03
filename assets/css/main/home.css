@@ -38,7 +38,7 @@
 @media (max-width:800px) {
   .home{
     min-height: 0;
-    margin-top: 6rem;
+    margin: 6rem 0;
   }
   .homeImg{
     width: 25%;

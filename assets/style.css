@@ -9,6 +9,9 @@
 /* Main */
 @import "css/main/home.css";
 @import "css/main/sobreMim.css";
-@import"css/main/projetos.css";
+@import "css/main/tecnologias.css";
+@import "css/main/projetos.css";
 @import "css/main/contato.css";
 @import "css/footer/footer.css";
+/* Footer */
+@import "css/footer/footer.css"

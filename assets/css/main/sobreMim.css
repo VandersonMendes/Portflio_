@@ -4,7 +4,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 3rem 0;
 }
 .sobreMimFlex{
   display: flex;
@@ -13,7 +12,7 @@
 }
 .sobreImg img{
   width: 80%;
-  border-radius: 100px;
+  border-radius: 40px;
   border-left: 0.7rem solid var(--purple);
   cursor: pointer;
   padding: 1rem 0.5rem;
@@ -32,6 +31,27 @@
  border-radius: 10px;
  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
+.redeContato{
+  margin: 1rem 0;
+}
+.redeContatoList{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3rem;
+  margin-left: 2rem;
+}
+.redeContatoList li a img{  
+      max-width: 3rem;
+    border:2px solid var(--roxoLigth);
+    border-radius: 200px;
+    padding: 0.2rem;
+    transition: 200ms ease-in-out;
+}
+.redeContatoList li a img:hover{
+  transition: 200ms ease-in-out;
+  transform: scale(0.9);
+}
 @media (max-width:1200px) {
   .sobreMimFlex{
     gap: 2rem;
@@ -39,9 +59,6 @@
   .sobreText{
     max-width: 100%;
   }
-  .sobreParagrafos{
-    margin-right: 2rem;
-   }
   .sobreText h2{
     font-size: 2rem !important;
   }
@@ -58,6 +75,10 @@
 
 
 @media (max-width:800px) {
+  .sobreMim{
+    margin-bottom: 5rem;
+    min-height: 0;
+  }
   .sobreMimFlex{
     gap: 1rem;
   }
@@ -65,8 +86,20 @@
   flex-direction: column;
  }
  .sobreImg img{
-  width: 35%;
+  width: 45%;
   display: block;
   margin: 0 auto;
  }
+ .redeContatoList li a img{  
+  max-width: 2.5rem;
+
+}
+}
+@media (max-width:600px) {
+ .redeContatoList li a img{  
+  max-width: 2rem;
+}
+.redeContatoList{
+  gap: 2rem;
+}
 }
