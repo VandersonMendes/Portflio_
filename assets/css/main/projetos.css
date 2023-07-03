@@ -36,10 +36,15 @@
   display: flex;
   gap: 2rem;
 }
+@media (max-width:1200px) {
+  .projetos{
+    margin: 0rem 2rem 0rem 2rem;
+  }
+}
 @media (max-width:800px) {
   .projetos{
     min-height: 0;
-    margin-top: 5rem;
+    margin: 0rem 1rem 0rem 1rem;
   }
   .projetosGrid{
     gap: 2rem;
