@@ -13,7 +13,7 @@
   align-items: center;
 }
 .projetosGrid div{
-  max-height: 500px;
+  max-height: 450px;
 }
 .projetosGrid div img{
   cursor: pointer;

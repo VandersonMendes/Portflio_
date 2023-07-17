@@ -35,6 +35,7 @@
     animation: show-right 1s ease-in;
 }
 
+
 @keyframes show-right {
     from {
         opacity: 0;
