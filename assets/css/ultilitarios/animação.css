@@ -1,44 +1,51 @@
 @keyframes float {
-  0%{
+  0% {
     transform: translateY(0px);
   }
-  50%{
+
+  50% {
     transform: translateY(-30px);
   }
-    0%{
-      transform: translateY(0px);
-    }
+
+  0% {
+    transform: translateY(0px);
+  }
 }
-.animeTop{
+
+.animeTop {
   opacity: 0;
   transform: translateY(-50px);
   animation: animationTop 1s forwards;
 }
+
 @keyframes animationTop {
-    to{
-      opacity: 1;
-      transform: initial;
-    }
+  to {
+    opacity: 1;
+    transform: initial;
+  }
 }
 
-.animeBottom{
+
+.animeBottom {
   opacity: 0;
   transform: translateY(50px);
   animation: animationTop 1.4s forwards;
 }
+
 @keyframes animationTop {
-    to{
-      opacity: 1;
-      transform: initial;
-    }
+  to {
+    opacity: 1;
+    transform: initial;
+  }
 }
 
-.js [data-scroll="scroll"]{
+.js [data-scroll="scroll"] {
   opacity: 0;
-  transform: translate3d(-40px, 0 ,0);
+  transform: translate3d(-40px, 0, 0);
   transition: 1s ease-in-out;
 }
-.js [data-scroll="scroll"].ativo{
+
+.js [data-scroll="scroll"].ativo {
   opacity: 1;
-  transform: translate3d(0,0,0);
+  transform: translate3d(0, 0, 0);
 }

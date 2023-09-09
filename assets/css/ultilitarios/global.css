@@ -6,6 +6,13 @@ body{
   background-color: var(--blueExt);
   overflow-x: hidden;
 }
+body.paused{
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  text-size-adjust: none;
+ -webkit-text-size-adjust: none;
+}
 a,li{
   text-decoration: none;
   list-style: none;
