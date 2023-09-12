@@ -10,6 +10,7 @@
   justify-content: space-around;
   z-index: 1000;
   backdrop-filter: blur(10px);
+  background-color: rgb(16, 31, 76);
   height: 50px;
   padding: 0.5rem 0;
 }

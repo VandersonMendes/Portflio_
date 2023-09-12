@@ -28,6 +28,7 @@ export default class Slide{
         el.classList.remove("active");
       }
     show(i){
+      console.log(content)
         this.index = i;
         this.slide = this.slides[this.index];
         if (this.thumbItems) {
@@ -56,17 +57,22 @@ export default class Slide{
       }
       pause() {
         document.body.classList.add('paused')
-        const conteudoPaused = document.getElementById('conteudoPaused');
-        console.log(this.slides)
-        
         this.pausedTimeout = new Timeout(() => {
           this.timeout?.pause();
           this.paused = true;
           this.thumb?.classList.add("paused");
+
+          childrenActive?.classList.add('active');
+          childrenRemove?.classList.add('remove');
+          console.log(childrenRemove);
         }, 250);
       }
       continue() {
         document.body.classList.remove('paused')
+        const childrenRemove = this.slide.children[1];
+        childrenRemove?.classList.remove('remove')
+        const childrenActive = this.slide.children[0];
+        childrenActive?.classList.remove('active')
         this.pausedTimeout?.clear();
         if (this.paused) {
           this.paused = false;
