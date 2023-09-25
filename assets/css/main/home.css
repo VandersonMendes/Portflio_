@@ -16,7 +16,7 @@
 }
 .homeNav{
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
   margin-top: 1rem;
 }
 .homeNav a{
