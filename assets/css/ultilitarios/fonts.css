@@ -27,10 +27,10 @@
 }
 
 .G{
-  font-size: 41pt;
+  font-size: 38pt;
 }
 .M{
-  font-size: 34pt;
+  font-size: 30pt;
 }
 .PM{
   font-size: 24pt;
@@ -46,10 +46,10 @@
 }
 @media (max-width:1200px) {
   .G{
-    font-size: 52pt;
+    font-size: 36pt;
   }
   .M{
-    font-size: 32pt;
+    font-size: 28pt;
   }
   .PM{
     font-size: 24pt;
@@ -66,10 +66,10 @@
 }
 @media (max-width:900px) {
   .G{
-    font-size: 45pt;
+    font-size: 32pt;
   }
   .M{
-    font-size: 30pt;
+    font-size: 26pt;
   }
   .PM{
     font-size: 22pt;
@@ -86,33 +86,13 @@
 }
 @media (max-width:600px) {
   .G{
-    font-size: 36pt;
+    font-size: 28pt;
   }
   .M{
-    font-size: 26pt;
+    font-size: 24pt;
   }
   .PM{
-    font-size: 20pt;
-  }
-  .P{
-    font-size: 14pt;
-  }
-  .PP{
-    font-size: 12pt;
-  }
-  .PPP{
-    font-size: 10pt;
-  }
-}
-@media (max-width:600px) {
-  .G{
-    font-size: 30pt;
-  }
-  .M{
-    font-size: 22pt;
-  }
-  .PM{
-    font-size: 16pt;
+    font-size: 18pt;
   }
   .P{
     font-size: 14pt;

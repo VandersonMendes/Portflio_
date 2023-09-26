@@ -4,7 +4,9 @@
     justify-content: center;
     min-height: 100vh;
 }
-
+.titleTec{
+    margin-left: 20px;
+}
 .listTecnologias {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -65,9 +67,12 @@
 }
 
 @media (max-width:600px) {
+    .listTecnologias{
+        margin: 2rem auto;
+    }
     .listTecnologias li img {
         width: 100%;
-        max-width: 4rem;
+        max-width: 3rem;
         margin: 0;
     }
     .listTecnologias{
