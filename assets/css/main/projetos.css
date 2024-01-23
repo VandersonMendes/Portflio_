@@ -5,19 +5,21 @@
   justify-content: center;
 }
 
-.containerFlex{
+.containerFlex {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap:6rem;
+  gap: 6rem;
   margin: 0 2rem;
 }
+
 .flexCard {
   display: flex;
   justify-content: space-around;
   align-items: center;
   gap: 1rem;
 }
+
 .flexCardReverse {
   display: flex;
   justify-content: space-around;
@@ -41,9 +43,11 @@
   height: 300px;
   border-radius: 6px;
 }
-.textCard p{
+
+.textCard p {
   margin: 1rem 0;
 }
+
 .tecProjects {
   display: flex;
   gap: 1rem;
@@ -109,7 +113,7 @@
 
 .flexLink a {
   background-color: var(--purple);
-  padding:  6px 10px;
+  padding: 6px 10px;
   border-radius: 6px;
 }
 
@@ -118,6 +122,7 @@
   .projetos {
     margin: 0rem
   }
+
   .projetoCard img {
     width: 500px;
     height: 250px;
@@ -126,15 +131,17 @@
 }
 
 @media (max-width:1000px) {
-  .containerFlex{
+  .containerFlex {
     margin: 0 0.5rem;
   }
+
   .projetoCard img {
     width: 480px;
     height: 250px;
     border-radius: 6px;
   }
-  .flexCard{
+
+  .flexCard {
     gap: 0.5rem;
   }
 }
@@ -143,64 +150,88 @@
   .projetosGrid {
     gap: 2rem;
   }
+
   .projetoCard img {
     width: 420px;
     height: 210px;
     border-radius: 6px;
   }
+
   .projetosText a {
     padding: 0.5rem 0.3rem;
     text-align: center;
   }
+
   .projetoCard img {
     width: 440px;
     height: 220px;
     border-radius: 6px;
   }
-  .tecProjects{
+
+  .tecProjects {
     margin-bottom: 0.7rem;
   }
 }
+
 @media (max-width:800px) {
-  .containerFlex{
+  .containerFlex {
     margin: 0 1rem;
   }
-  .flexCard, .flexCardReverse{
+
+  .flexCard,
+  .flexCardReverse {
     flex-direction: column;
     align-items: center;
   }
-  .textCard{
-    margin:1rem 4em;
+
+  .textCard {
+    margin: 1rem 4em;
   }
-  .textCard p{
+
+  .textCard p {
     margin: 1rem 0;
   }
+
   .projetoCard img {
     width: 540px;
     height: 250px;
     border-radius: 6px;
   }
-  .tecProjects{
+
+  .tecProjects {
     margin-bottom: 1rem;
   }
+
   .projetosText a {
     padding: 0.8rem 0.5rem;
     text-align: center;
   }
 }
+
 @media (max-width:600px) {
   .projetoCard img {
-    width: 440px;
-    height: 200px;
+    width: 400px;
+    height: 180px;
     border-radius: 6px;
   }
+}
+@media (max-width: 500px) {
+  .projetoCard img {
+    width: 380px;
+    height: 180px;
+    border-radius: 6px;
+  }
+  
 }
 @media (max-width:400px) {
   .projetosText a {
     font-size: 12px;
     padding: 0.5rem 0.1rem;
   }
+
   .textCard {
     margin: 1rem 6em;
-}
+  }
+
+
 }

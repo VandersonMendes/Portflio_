@@ -16,9 +16,16 @@
 }
 
 .listTecnologias li {
-    filter: grayscale(50%);
     cursor: pointer;
+    transition: transform 0.4s ease-in-out, filter 0.3s ease-in-out; 
+    filter: saturate(60%);
 }
+.listTecnologias li:hover {
+    transform: scale(1.2);
+    filter: saturate(100%);
+    transform: rotate(-4deg);
+}
+
 
 [data-tab="content"] div {
     display: none;
@@ -50,9 +57,6 @@
     }
 }
 
-.listTecnologias li:hover {
-    filter: grayscale(0%);
-}
 
 .listTecnologias li img {
     width: 100%;

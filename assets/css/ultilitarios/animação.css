@@ -49,3 +49,13 @@
   opacity: 1;
   transform: translate3d(0, 0, 0);
 }
+
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}

@@ -11,6 +11,7 @@ export default function ativarDescricaoSkills() {
         };
         menu.forEach((item, index) => {
             item.addEventListener('click', () => activeTab(index))
+            item.addEventListener('mouseover', () => activeTab(index))
         })
     }
 };

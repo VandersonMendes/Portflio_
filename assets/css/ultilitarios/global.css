@@ -5,6 +5,7 @@
 body{
   background-color: var(--blueExt);
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 a,li{
   text-decoration: none;
@@ -14,5 +15,21 @@ a,li{
 img{
   width: 100%;
 }
+/* Estilizando a barra de rolagem no WebKit */
+::-webkit-scrollbar {
+  width: 8px; /* Largura da barra de rolagem */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--grenn);
+  border-radius: 2px; /* Borda arredondada do "thumb" */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #0F213F; /* Cor da trilha da barra de rolagem */
+
+}
 
 
+/* Estilizando a barra de rolagem no Firefox */
+/* NOTA: Firefox atualmente não suporta completamente personalização de barra de rolagem com CSS puro. */

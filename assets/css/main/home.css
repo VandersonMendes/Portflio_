@@ -41,7 +41,7 @@
     margin: 6rem 0;
   }
   .homeImg{
-    width: 25%;
+    width: 200px;
   }
   .homeNav{
     gap: 0.8rem;
@@ -57,5 +57,11 @@
   .homeImg{
     margin-bottom: 2rem;
     animation: none;
+  }
+}
+
+@media (max-width:600px) {
+  .homeImg{
+    width: 150px;
   }
 }
