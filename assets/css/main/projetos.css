@@ -90,6 +90,12 @@
 .tecProjects .typescript {
   background-color: rgb(7, 113, 251);
 }
+.tecProjects .sass {
+  background-color: rgb(207, 5, 123);
+}
+.tecProjects .angular {
+  background-color: rgb(235, 128, 42);
+}
 
 .projetosText a {
   background-color: var(--purple);
@@ -216,6 +222,9 @@
   }
 }
 @media (max-width: 500px) {
+  .containerFlex{
+    gap: 3rem;
+  }
   .projetoCard img {
     width: 380px;
     height: 180px;
@@ -228,10 +237,13 @@
     font-size: 12px;
     padding: 0.5rem 0.1rem;
   }
-
-  .textCard {
-    margin: 1rem 6em;
+  .projetoCard img {
+    width: 290px;
+    height: 150px;
+    border-radius: 6px;
   }
 
-
+  .textCard {
+    margin: 1rem 2em;
+  }
 }
