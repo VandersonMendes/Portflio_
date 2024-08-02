@@ -60,7 +60,7 @@
 
 .listTecnologias li img {
     width: 100%;
-    max-width: 7rem;
+    max-width: 5.5rem;
 }
 
 @media (max-width:800px) {
